@@ -16,6 +16,25 @@ body:
       - If you have multiple requests submit them separately so we can track resolution.
       - We accept pull requests. If you know how to make it - go ahead! If you're unsure how to do a pull request, consider signing up for a free [Sharing is Caring First-Time Contributor](http://aka.ms/sharing-is-caring#pnp-sic-first-time-contributor) session.
 
+- type: checkboxes
+  id: components
+  attributes:
+    label: Which components would you like this sample to be about?
+    description: Select all that apply
+    options:
+      - label: mgt-login
+      - label: mgt-person
+      - label: mgt-person-card
+      - label: mgt-people
+      - label: mgt-people-picker
+      - label: mgt-agenda
+      - label: mgt-tasks
+      - label: mgt-todo
+      - label: mgt-teams-channel-picker
+      - label: mgt-file
+      - label: mgt-file-list
+      - label: mgt-get
+    
 - type: textarea
   id: description
   attributes:
