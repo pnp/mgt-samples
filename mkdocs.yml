@@ -1,0 +1,74 @@
+# Web Part Samples
+# Author: Hugo Bernier
+site_name: Microsoft Graph Toolkit Samples
+plugins:
+    - macros
+    - markdownextradata
+    - redirects:
+        redirect_maps:
+            'samples/all.md': 'index.md'
+            # 'samples/framework.md': '../index.md'
+            # 'samples/framework': 'https://pnp.github.io/mgt-samples/'
+nav:
+  - Samples:
+    - By Framework: index.md
+    - By SPFx Version: samples/spfx.md
+    - By Compatibility: samples/compatibility.md
+  - Getting Started:
+    - Using the Samples: gettingstarted/index.md
+    - Troubleshooting: gettingstarted/troubleshooting.md
+  - Contributing:
+    - Contribution guide: contributing/index.md
+    - Submitting an issue or suggestion: contributing/issues.md
+    - Forking?: contributing/forking.md
+    - Add a sample: contributing/sample.md
+    - Submitting a pull request: contributing/pullrequest.md
+theme:
+  name: 'material'
+  custom_dir: 'custom_theme'
+  palette:
+    primary: 'pnp'
+    accent: 'indigo'
+  logo: 'img/pnp-samples-white.svg'
+  feature:
+    tabs: true
+extra_css:
+  - 'css/site.css'
+  - 'css/extra.css'
+  - 'css/filter.css'
+  - 'https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/10.0.0/css/fabric.min.css'
+extra_javascript:
+  - 'https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js'
+  - 'https://cdn.jsdelivr.net/npm/lodash@4.17.21/lodash.min.js'
+  - 'javascript/moment.js'
+  - 'javascript/isotope.pkgd.min.js'
+  - 'javascript/loadsamples.js'
+  - 'javascript/filtersamples.js'
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+  - toc:
+      permalink: true
+extra:
+  telemetry: 'pnptelemetry.azurewebsites.net/mgt-samples'
+  twitter_site: '@m365pnp'
+  media_url: https://pnp.github.io/mgt-samples/img/pnp-samples-white.png
+  twitter_media_url: https://pnp.github.io/mgt-samples/img/pnp-samples-logo-twitter.png
+  media_alt: Patterns and Practices Samples
+  site_search_url: https://pnp.github.io/mgt-samples/?query=
+  generator: false
+  version: '1.0.0-0'
+  social:
+    - icon: 'fontawesome/brands/twitter'
+      link: 'https://twitter.com/m365pnp'
+    - icon: 'fontawesome/brands/youtube'
+      link: 'https://www.youtube.com/playlist?list=PLR9nK3mnD-OXgMjDBdjWUTRia89oixBhx'
+    - icon: 'fontawesome/solid/link'
+      link: 'https://aka.ms/m365pnp'
+repo_url: https://github.com/pnp/mgt-samples
+edit_uri: tree/Docs/docs
+site_url: https://pnp.github.io/mgt-samples/
+site_description: A gallery of SPFx client-side web part samples created by the community
+favicon: assets/favicon.png
+# dev_addr: '127.0.0.1:443'
