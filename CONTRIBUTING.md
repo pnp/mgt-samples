@@ -59,8 +59,8 @@ When you submit a new sample, please follow these guidelines:
 * You will need to have a `README.md` file for your contribution, which is based on [the provided template](../main/templates/README-template.md) under the `samples` folder. Please copy this template to your project and update it accordingly. Your `README.md` must be named exactly `README.md` -- with capital letters -- as this is the information we use to make your sample public.
 * You will need to have a screenshot picture of your sample in action in the `README.md` file ("pics or it didn't happen"). The preview image must be located in the `assets` folder in the root of your sample folder.
     * All screen shots must be located in the `assets` folder. Do not point to your own repository or any other external source
-* The README template contains a specific tracking image at the end of the file with an `img` element pointing to `https://pnptelemetry.azurewebsites.net/mtg-samples/samples/YOUR-SOLUTION-NAME`. This is a transparent image which is used to track how many visits each sample receives in GitHub.
-* Update the image `src` attribute according with the repository name and folder information. For example, if your sample is named `react-todo` in the `samples` folder, you should update the `src` attribute to `https://pnptelemetry.azurewebsites.net/mtg-samples/samples/react-todo`
+* The README template contains a specific tracking image at the end of the file with an `img` element pointing to `https://pnptelemetry.azurewebsites.net/mgt-samples/samples/YOUR-SOLUTION-NAME`. This is a transparent image which is used to track how many visits each sample receives in GitHub.
+* Update the image `src` attribute according with the repository name and folder information. For example, if your sample is named `react-todo` in the `samples` folder, you should update the `src` attribute to `https://pnptelemetry.azurewebsites.net/mgt-samples/samples/react-todo`
   * Update the image `src` attribute according with the repository name and folder information.
 * If you find an existing sample which is similar to yours, please extend the existing one rather than submitting a new similar sample
   * When you update existing samples, please update also `README.md` file accordingly with information on provided changes and with your author details
@@ -95,7 +95,7 @@ When you submit a new sample, please follow these guidelines:
 Here's a high-level process for submitting new samples or updates to existing ones.
 
 1. Sign the Contributor License Agreement (see below)
-2. Fork this repository [pnp/mtg-samples](https://github.com/pnp/mtg-samples) to your GitHub account
+2. Fork this repository [pnp/mgt-samples](https://github.com/pnp/mgt-samples) to your GitHub account
 3. Create a new branch from the `main` branch for your fork for the contribution
 4. Include your changes to your branch
 5. Commit your changes using descriptive commit message * These are used to track changes on the repositories for monthly communications
@@ -104,18 +104,18 @@ Here's a high-level process for submitting new samples or updates to existing on
 
 Before you submit your pull request consider the following guidelines:
 
-* Search [GitHub](https://github.com/pnp/mtg-samples/pulls) for an open or closed Pull Request
+* Search [GitHub](https://github.com/pnp/mgt-samples/pulls) for an open or closed Pull Request
   which relates to your submission. You don't want to duplicate effort.
-* Make sure you have a link in your local cloned fork to the [pnp/mtg-samples](https://github.com/pnp/mtg-samples):
+* Make sure you have a link in your local cloned fork to the [pnp/mgt-samples](https://github.com/pnp/mgt-samples):
 
   ```shell
   # check if you have a remote pointing to the Microsoft repo:
   git remote -v
 
-  # if you see a pair of remotes (fetch & pull) that point to https://github.com/pnp/mtg-samples, you're ok... otherwise you need to add one
+  # if you see a pair of remotes (fetch & pull) that point to https://github.com/pnp/mgt-samples, you're ok... otherwise you need to add one
 
   # add a new remote named "upstream" and point to the Microsoft repo
-  git remote add upstream https://github.com/pnp/mtg-samples.git
+  git remote add upstream https://github.com/pnp/mgt-samples.git
   ```
 
 * Make your changes in a new git branch:
@@ -124,7 +124,7 @@ Before you submit your pull request consider the following guidelines:
   git checkout -b react-taxonomypicker main
   ```
 
-* Ensure your fork is updated and not behind the upstream **mtg-samples** repo. Refer to these resources for more information on syncing your repo:
+* Ensure your fork is updated and not behind the upstream **mgt-samples** repo. Refer to these resources for more information on syncing your repo:
   * [GitHub Help: Syncing a Fork](https://help.github.com/articles/syncing-a-fork/)
   * [Keep Your Forked Git Repo Updated with Changes from the Original Upstream Repo](http://www.andrewconnell.com/blog/keep-your-forked-git-repo-updated-with-changes-from-the-original-upstream-repo)
   * For a quick cheat sheet:
@@ -133,7 +133,7 @@ Before you submit your pull request consider the following guidelines:
     # assuming you are in the folder of your locally cloned fork....
     git checkout main
 
-    # assuming you have a remote named `upstream` pointing official **mtg-samples** repo
+    # assuming you have a remote named `upstream` pointing official **mgt-samples** repo
     git fetch upstream
 
     # update your local main to be a mirror of what's in the main repo
@@ -156,23 +156,23 @@ Before you submit your pull request consider the following guidelines:
 
 If the sample you wish to contribute is stored in your own GitHub repository, you can use the following steps to merge it with this repository:
 
-* Fork the `mtg-samples` repository from GitHub
+* Fork the `mgt-samples` repository from GitHub
 * Create a local git repository
 
     ```shell
-    md mtg-samples
-    cd mtg-samples
+    md mgt-samples
+    cd mgt-samples
     git init
     ```
 
-* Pull your forked copy of `mtg-samples` into your local repository
+* Pull your forked copy of `mgt-samples` into your local repository
 
     ```shell
-    git remote add origin https://github.com/yourgitaccount/mtg-samples.git
+    git remote add origin https://github.com/yourgitaccount/mgt-samples.git
     git pull origin main
     ```
 
-* Pull your other project from GitHub into the `samples` folder of your local copy of `mtg-samples`
+* Pull your other project from GitHub into the `samples` folder of your local copy of `mgt-samples`
 
     ```shell
     git subtree add --prefix=samples/projectname https://github.com/yourgitaccount/projectname.git main
@@ -194,4 +194,4 @@ Thank you for your contribution.
 
 > Sharing is caring.
 
-<img src="https://pnptelemetry.azurewebsites.net/mtg-samples/CONTRIBUTING.md" />
+<img src="https://pnptelemetry.azurewebsites.net/mgt-samples/CONTRIBUTING.md" />

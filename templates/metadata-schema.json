@@ -7,7 +7,7 @@
         "properties": {
             "name": {
                 "type": "string",
-                "pattern": "pnp-mtg-samples-.*"
+                "pattern": "pnp-mgt-samples-.*"
             },
             "version": {
                 "type": "string"

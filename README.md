@@ -16,13 +16,13 @@ extensions:
 -->
 # Microsoft Graph Toolkit Samples & Tutorial Materials
 
-![GitHub Repo stars](https://img.shields.io/github/stars/pnp/mtg-samples?style=social)
-![GitHub forks](https://img.shields.io/github/forks/pnp/mtg-samples?style=social)
-![GitHub watchers](https://img.shields.io/github/watchers/pnp/mtg-samples?style=social)
+![GitHub Repo stars](https://img.shields.io/github/stars/pnp/mgt-samples?style=social)
+![GitHub forks](https://img.shields.io/github/forks/pnp/mgt-samples?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/pnp/mgt-samples?style=social)
 [![Twitter Follow](https://img.shields.io/twitter/follow/m365pnp?style=social)](https://twitter.com/m365pnp?s=20)
 [![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UC_mKdhw-V6CeCM7gTo_Iy7w?style=social)](https://www.youtube.com/channel/UC_mKdhw-V6CeCM7gTo_Iy7w)
-[![GitHub issues](https://img.shields.io/github/issues/pnp/mtg-samples)](https://github.com/pnp/mtg-samples/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/pnp/mtg-samples)](https://github.com/pnp/mtg-samples/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/pnp/mgt-samples)](https://github.com/pnp/mgt-samples/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/pnp/mgt-samples)](https://github.com/pnp/mgt-samples/pulls)
 
 This repository contains community samples that demonstrate different usage patterns for the Microsoft Graph Toolkit.
 
@@ -35,7 +35,7 @@ The Microsoft Graph Toolkit is a collection of reusable, framework-agnostic comp
 Please use following logic on submitting your questions or issues to right location to ensure that they are noticed and addressed as soon as possible.
 
 * You have general question or challenge with MGT - use the [microsoft-graph-toolkit repository issue list](https://github.com/microsoftgraph/microsoft-graph-toolkit/issues).
-* You have issue on a specific sample in this repository - use [issue list in this repository](https://github.com/pnp/mtg-samples/issues).
+* You have issue on a specific sample in this repository - use [issue list in this repository](https://github.com/pnp/mgt-samples/issues).
 
 ## Additional resources
 
@@ -49,13 +49,13 @@ To build and start using these projects, you'll need to clone and build the proj
 Clone this repository by executing the following command in your console:
 
 ```shell
-git clone https://github.com/pnp/mtg-samples.git
+git clone https://github.com/pnp/mgt-samples.git
 ```
 
 Navigate to the cloned repository folder which should be the same as the repository name:
 
 ```shell
-cd mtg-samples
+cd mgt-samples
 ```
 
 To access the samples use the following command, where you replace `sample-folder-name` with the name of the sample you want to access.

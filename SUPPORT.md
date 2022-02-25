@@ -2,7 +2,7 @@
 
 The Microsoft Graph Toolkit samples repository is maintained by the [Patterns and Practices](https://aka.ms/m365pnp) team and the community, who all volunteer their time. 
 
-We track bugs, user questions, suggestions and sample requests through [GitHub issues](https://github.com/pnp/mtg-samples/issues). 
+We track bugs, user questions, suggestions and sample requests through [GitHub issues](https://github.com/pnp/mgt-samples/issues). 
 
 Please help out as you can in response to issues and user questions.
 
@@ -15,27 +15,27 @@ Please help out as you can in response to issues and user questions.
 Please use following logic on submitting your questions or issues to right location to ensure that they are noticed and addressed as soon as possible.
 
 * You have general question or challenge with MGT - use the [microsoft-graph-toolkit repository issue list](https://github.com/microsoftgraph/microsoft-graph-toolkit/issues).
-* You have issue on a specific sample in this repository - use [issue list in this repository](https://github.com/pnp/mtg-samples/issues).
+* You have issue on a specific sample in this repository - use [issue list in this repository](https://github.com/pnp/mgt-samples/issues).
 
 ### How to report a bug
 
-We use GitHub to track issues. To report a bug, [open a new issue](https://github.com/pnp/mtg-samples/issues/new/choose). Please include
-all the information that might be relevant, including instructions for reproducing the bug. Make sure to read up on [how to create good issues](https://github.com/pnp/mtg-samples/wiki/How-to-Create-Good-Issues) to get your issue resolved faster.
+We use GitHub to track issues. To report a bug, [open a new issue](https://github.com/pnp/mgt-samples/issues/new/choose). Please include
+all the information that might be relevant, including instructions for reproducing the bug. Make sure to read up on [how to create good issues](https://github.com/pnp/mgt-samples/wiki/How-to-Create-Good-Issues) to get your issue resolved faster.
 
 ### Where can I ask for help?
 
-We use GitHub issues to support user questions. To ask a question, [open a new issue](https://github.com/pnp/mtg-samples/issues/new/choose) and select the question template. 
+We use GitHub issues to support user questions. To ask a question, [open a new issue](https://github.com/pnp/mgt-samples/issues/new/choose) and select the question template. 
 
 ### How to submit changes
 
-Please see our [Contributing Guidance](https://github.com/pnp/mtg-samples/blob/main/CONTRIBUTING.md).
+Please see our [Contributing Guidance](https://github.com/pnp/mgt-samples/blob/main/CONTRIBUTING.md).
 
 ### How to request an enhancement
 
-We use GitHub issues to support user suggestions. To request an enhanced, [open a new issue](https://github.com/pnp/mtg-samples/issues/new/choose) and select the suggestion template. 
+We use GitHub issues to support user suggestions. To request an enhanced, [open a new issue](https://github.com/pnp/mgt-samples/issues/new/choose) and select the suggestion template. 
 
 ### How to request an sample request
 
-We use GitHub issues to support sample request. To request a new sample, [open a new issue](https://github.com/pnp/mtg-samples/issues/new/choose) and select the sample request template. 
+We use GitHub issues to support sample request. To request a new sample, [open a new issue](https://github.com/pnp/mgt-samples/issues/new/choose) and select the sample request template. 
 
-<img src="https://pnptelemetry.azurewebsites.net/mtg-samples/SUPPORT.md" />
+<img src="https://pnptelemetry.azurewebsites.net/mgt-samples/SUPPORT.md" />
