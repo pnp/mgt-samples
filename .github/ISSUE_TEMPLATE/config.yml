@@ -1,0 +1,14 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Start a discussion
+    about: 🗨 Start a friendly conversation with the other members of the community about the samples in this repository.
+    url: https://github.com/microsoftgraph/microsoft-graph-toolkit/discussions
+  - name: Microsoft Graph Toolkit issues
+    url: https://github.com/microsoftgraph/microsoft-graph-toolkit/issues/new
+    about: 📚 Issue related to the Microsoft Graph Toolkit or its documentation? Submit an issue here.
+  - name: Microsoft Graph Toolkit Stack Overflow
+    url: https://stackoverflow.com/questions/tagged/microsoft-graph-toolkit
+    about: ⁉️ If you have technical questions about the MGT, tag your questions with `#microsoft-graph-toolkit` here.
+  - name: Microsoft Tech Community
+    url: https://techcommunity.microsoft.com/t5/microsoft-graph/bd-p/OfficeGraph
+    about: ⁉️ Alternatively, submit your technical questions about the MGT in the Microsoft Graph group here
