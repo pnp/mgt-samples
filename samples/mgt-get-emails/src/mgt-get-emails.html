@@ -2,14 +2,13 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
 
 <!-- External Styles -->
-<link rel="stylesheet"
-	href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
+<link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
 
 <!-- Template -->
 <div class="mgt-get-email">
-	<h1 class="mgt-get-email-title">My emails</h1>
-	<mgt-get id="mgt-email" resource="/me/mailFolders/Inbox/messages" scopes="Mail.Read, Mail.ReadWrite" max-pages="3">
-		<template>
+    <h1 class="mgt-get-email-title">My emails</h1>
+    <mgt-get id="mgt-email" resource="/me/mailFolders/Inbox/messages" scopes="Mail.Read, Mail.ReadWrite" max-pages="3">
+        <template>
 			<div class="email" data-for="email in value">
 				<div class="header">
 					<div>
@@ -39,12 +38,12 @@
 			</div>
 		</template>
 
-		<template data-type="loading">
+        <template data-type="loading">
 			Loading...
 		</template>
 
-		<template data-type="error">
+        <template data-type="error">
 			{{ this }}
 		</template>
-	</mgt-get>
+    </mgt-get>
 </div>
