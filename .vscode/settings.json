@@ -8,5 +8,14 @@
             "url": "./templates/metadata-schema.json"
             //https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json
         }
-    ]
+    ],
+    "[html]": {
+        "editor.tabSize": 4,
+    },
+    "[javascript]": {
+        "editor.tabSize": 4
+    },
+    "[css]": {
+        "editor.tabSize": 4
+    }
 }

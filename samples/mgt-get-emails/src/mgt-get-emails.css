@@ -1,92 +1,93 @@
 /* Email Styles */
+
 .mgt-get-email {
-  font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
+    font-family: Segoe UI, Frutiger, Frutiger Linotype, Dejavu Sans, Helvetica Neue, Arial, sans-serif;
 }
 
 .mgt-get-email .email {
-  box-shadow: var(--box-shadow);
-  padding: 10px;
-  margin: 8px 16px;
+    box-shadow: var(--box-shadow);
+    padding: 10px;
+    margin: 8px 16px;
 }
 
-.mgt-get-email .email:hover{
-  border-left: 4px;
-  border-left-color: var(--input-border-color--hover);
-  border-left-style: solid;
-  padding-left: 6px;
+.mgt-get-email .email:hover {
+    border-left: 4px;
+    border-left-color: var(--input-border-color--hover);
+    border-left-style: solid;
+    padding-left: 6px;
 }
 
 .mgt-get-email .email .title h3 {
-  color: var(--color-sub1);
-  font-size: 14px;
-  grid-area: 1 / 1 / auto / 3;
-  font-size: 14px;
-  margin: 0;
+    color: var(--color-sub1);
+    font-size: 14px;
+    grid-area: 1 / 1 / auto / 3;
+    font-size: 14px;
+    margin: 0;
 }
 
 .mgt-get-email .email a {
-  color: var(--color-sub1);
-  text-decoration: none;
+    color: var(--color-sub1);
+    text-decoration: none;
 }
 
 .mgt-get-email .email .command-bar-action a {
-  color: var(--icon-color);
-  text-decoration: none;
+    color: var(--icon-color);
+    text-decoration: none;
 }
 
 .mgt-get-email .email mgt-person {
-  --font-size: 12px;
-  --avatar-size-s: 16px;
+    --font-size: 12px;
+    --avatar-size-s: 16px;
 }
 
 .mgt-get-email .email .preview {
-  font-size: 13px;
-  text-overflow: ellipsis;
-  word-wrap: break-word;
-  overflow: hidden;
-  max-height: 2.8em;
-  line-height: 1.4em;
-  color: var(--color-sub2)
+    font-size: 13px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 2.8em;
+    line-height: 1.4em;
+    color: var(--color-sub2)
 }
 
 .mgt-get-email .email .empty-body {
-  font-style: italic;
+    font-style: italic;
 }
 
 .mgt-get-email .email .command-bar {
-  font-family: FabricMDL2Icons;
-  font-style: inherit;
-  text-decoration: none;
-  color: var(--color-sub1);
+    font-family: FabricMDL2Icons;
+    font-style: inherit;
+    text-decoration: none;
+    color: var(--color-sub1);
 }
 
 .mgt-get-email .email .command-bar-action {
-  font-family: FabricMDL2Icons;
-  font-style: inherit;
-  text-decoration: none;
-  color: var(--icon-color);
-  font-size: 16px;
-  padding-left: 4px;
+    font-family: FabricMDL2Icons;
+    font-style: inherit;
+    text-decoration: none;
+    color: var(--icon-color);
+    font-size: 16px;
+    padding-left: 4px;
 }
 
 .mgt-get-email .email .header {
-  display: flex;
-  justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
 }
 
 .mgt-get-email .email .title {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 4px;
-  color: var(--color-sub1);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 4px;
+    color: var(--color-sub1);
 }
 
 .mgt-get-email .email .date {
-  font-size: 12px;
-  padding-left: 4px;
-  float: right;
+    font-size: 12px;
+    padding-left: 4px;
+    float: right;
 }
 
 .mgt-get-email-title {
-  padding-left: 20px;
+    padding-left: 20px;
 }
