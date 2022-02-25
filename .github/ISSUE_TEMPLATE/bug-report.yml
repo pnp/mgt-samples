@@ -10,7 +10,7 @@ body:
 
       Thank you for reporting a bug! Use the sections below to submit a bug ONLY if it's related to samples in this repo. If you have an issue or question about the Microsoft Graph Toolkit or its documentation, please submit it at https://github.com/microsoftgraph/microsoft-graph-toolkit/issues. 
       
-      - Follow our guidance on [How To Create Good Issues](https://github.com/pnp/mtg-samples/wiki/How-to-Create-Good-Issues).
+      - Follow our guidance on [How To Create Good Issues](https://github.com/pnp/mgt-samples/wiki/How-to-Create-Good-Issues).
       - All bug reports are welcome - we want to fix them!
       - This repo is maintained by volunteers. Please be courteous and patient. 🙂
       - Remember to include sufficient details and context.
@@ -50,7 +50,7 @@ body:
 - type: markdown
   attributes:
     value: |
-      Provide a clear & concise description of what the bug is. Please follow our guidance on [How To Create Good Issues](https://github.com/pnp/mtg-samples/wiki/How-to-Create-Good-Issues) which explains how to apply formatting, adding references & resources, screenshots, etc. 
+      Provide a clear & concise description of what the bug is. Please follow our guidance on [How To Create Good Issues](https://github.com/pnp/mgt-samples/wiki/How-to-Create-Good-Issues) which explains how to apply formatting, adding references & resources, screenshots, etc. 
       
       **Do not attach ZIP files** of your code or compiled projects - instead, please publish your code to a public GitHub repo & post a link to it.
 

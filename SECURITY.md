@@ -13,6 +13,6 @@ All code samples in this repository are intended for education purposes only and
 
 ## Reporting a Vulnerability
 
-To report a vulnerability, please [create an issue](https://github.com/pnp/mtg-samples/issues/new/choose) and tag the issue as `vulnerability-suspected`.
+To report a vulnerability, please [create an issue](https://github.com/pnp/mgt-samples/issues/new/choose) and tag the issue as `vulnerability-suspected`.
 
 Upon receipt of the issue, we will flag the sample as having a suspected vulnerability and request the support from the community to identify and resolve, if possible, the issue.

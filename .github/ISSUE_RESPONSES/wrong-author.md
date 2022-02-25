@@ -12,4 +12,4 @@ You can find the author(s) of each sample in the sample's `README.md`, under **S
 
 We'll automatically close this issue in 7 days unless you update the issue.
 
-For more information on how to create a good issue, refer to our wiki for more information: [How to Create Good Issues](https://github.com/pnp/mtg-samples/wiki/How-to-Create-Good-Issues)
+For more information on how to create a good issue, refer to our wiki for more information: [How to Create Good Issues](https://github.com/pnp/mgt-samples/wiki/How-to-Create-Good-Issues)
