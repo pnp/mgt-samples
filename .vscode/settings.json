@@ -1,9 +1,11 @@
 {
     "json.schemas": [
+
         {
             "fileMatch": [
                 "**/samples.json",
-                "**/assets/sample.json"
+                "**/assets/sample.json",
+                "/templates/metadata-schema.json"
             ],
             "url": "./templates/metadata-schema.json"
             //https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json

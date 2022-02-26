@@ -6,7 +6,7 @@
     "shortDescription": "YOUR-SHORT-DESCRIPTION",
     "url": "https://github.com/pnp/mgt-samples/tree/main/samples/mgt-get-emails",
     "longDescription": [
-      "YOUR-SHORT-DESCRIPTION"
+      "This sample demonstrates the usage of the mgt-get component connected to the email data from Microsoft Graph. It also illustrates the use of custom functions to format and act on the received data."
     ],
     "creationDateTime": "2022-02-25",
     "updateDateTime": "2022-02-25",
