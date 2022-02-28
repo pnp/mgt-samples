@@ -37,9 +37,9 @@ This sample illustrates the following concepts on top of the Microsoft Graph Too
 
 ## Live Preview
 
-Experience a Live Preview of mgt-multiple-person in the Microsoft Graph Toolkit Playground
+Experience a Live Preview of mgt-get-multiple-person in the Microsoft Graph Toolkit Playground
 
-[![Microsoft Graph Toolkit Playground](https://img.shields.io/badge/Microsoft_Graph_Toolkit-Playground-green.svg)](https://mgt.dev?path=/story/editor--editor&manifest=https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-multiple-person/assets/sample.json)
+[![Microsoft Graph Toolkit Playground](https://img.shields.io/badge/Microsoft_Graph_Toolkit-Playground-green.svg)](https://mgt.dev?path=/story/editor--editor&manifest=https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/assets/sample.json)
 
 <!--
 RESERVED FOR REPO MAINTAINERS
