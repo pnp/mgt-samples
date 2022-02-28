@@ -30,57 +30,9 @@ TODO: Create a good screen shot
 ## Compatibility
 
 TODO: Complete this compatibility matrix
-![SPFx 1.14](https://img.shields.io/badge/SPFx-1.14-green.svg)
-![Node.js v14 | v12](https://img.shields.io/badge/Node.js-v14%20%7C%20v12-green.svg) 
-![Local Workbench Unsupported](https://img.shields.io/badge/Local%20Workbench-Unsupported-red.svg "Local workbench is no longer available as of SPFx 1.13 and above")
-![Hosted Workbench Compatible](https://img.shields.io/badge/Hosted%20Workbench-Compatible-green.svg)
-![Compatible with Remote Containers](https://img.shields.io/badge/Remote%20Containers-Compatible-green.svg)
+![MGT 2.3.2](https://img.shields.io/badge/MGT-2.3.2-green.svg)
+
 <!--
-  If using SPFx 1.13.1, update the SPFx and Node.js tags accordingly:
-![SPFx 1.13.1](https://img.shields.io/badge/SPFx-1.13.1-green.svg)
-
-  If using SPFx 1.12.1, update the SPFx and Node.js tags accordingly:
-![SPFx 1.12.1](https://img.shields.io/badge/SPFx-1.12.1-green.svg)
-![Node.js v14 | v12 | v10](https://img.shields.io/badge/Node.js-v14%20%7C%20v12%20%7C%20v10-green.svg) 
-
-  If using an older version of SPFx, update the SPFx and Node.js compatibility tag accordingly:
-
-  SPFx 1.11
-![SPFx 1.11](https://img.shields.io/badge/SPFx-1.11.0-green.svg) 
-![Node.js v10](https://img.shields.io/badge/Node.js-v10-green.svg) 
-
- SPFx 1.10
-![SPFx 1.10](https://img.shields.io/badge/SPFx-1.10.0-green.svg) 
-![Node.js v10 | v8](https://img.shields.io/badge/Node.js-v10%20%7C%20v8-green.svg) 
-
- SPFx 1.4.1
-![SPFx 1.4.1](https://img.shields.io/badge/SPFx-1.4.1-green.svg)
-![Node.js v6 | v8](https://img.shields.io/badge/Node.js-LTS%206.x%20%7C%20v8-green.svg)
-
-  If you built this sample specifically for SharePoint 2016, or SharePoint 2019 support, update the SharePoint compatibility tag accordingly:
-![Works with SharePoint 2019](https://img.shields.io/badge/SharePoint%20Server%202019-Compatible-green.svg)
-![Work with SharePoint 2016 (Feature Pack 2)](https://img.shields.io/badge/SharePoint%20Server%202016%20(Feature%20Pack%202)-Compatible-green.svg)
-
-  If you know your web part only works on the hosted workbench, you can use this for the workbench compatibility tag:
-![Local Workbench Incompatible](https://img.shields.io/badge/Local%20Workbench-Incompatible-red.svg "EXPLAIN WHY IT WORK WORK IN LOCAL WORKBENCH")
-
-  Otherwise:
-![Local Workbench Compatible](https://img.shields.io/badge/Local%20Workbench-Compatible-green.svg)
-
-  If your web part needs permissions before working in the hosted workbench, let people know;
-![Hosted Workbench (Requires permissions))](https://img.shields.io/badge/Hosted%20Workbench-(Requires%20permissions%)-yellow.svg "Requires permissions to be granted before this solution can work on the hosted workbench")
-
-  or:
-![Hosted Workbench Partially)](https://img.shields.io/badge/Hosted%20Workbench-Partially-yellow.svg "EXPLAIN WHY THE SOLUTION DOESN'T FULL WORK IN THE HOSTED WORKBENCH")
-
-  Otherwise:
-![Hosted Workbench Compatible](https://img.shields.io/badge/Hosted%20Workbench-Compatible-green.svg)
-
- If you specifically built and tested this web part to work with Teams, use this for the Teams compatibility tag:
-    ![Teams Yes: Designed for Microsoft Teams](https://img.shields.io/badge/Teams-Yes-green.svg "Designed for Microsoft Teams")
- And if you know for sure that it is NOT compatible with Teams, use this:
-    ![Teams No: Not designed for Microsoft Teams](https://img.shields.io/badge/Teams-No-red.svg "Not designed for Microsoft Teams")
-
 Don't worry if you're unsure about the compatibility matrix above. We'll verify it when we approve the PR. 
 -->
 
@@ -116,43 +68,29 @@ Version|Date|Comments
 ## Prerequisites
 
 <!--
-Any special pre-requisites? Include any lists, permissions, offerings to the demo gods, or whatever else needs to be done for this web part to work.
+Any special pre-requisites? Include any lists, permissions, offerings to the demo gods, or whatever else needs to be done for this sample to work.
 
 Please describe the steps to configure the pre-requisites. Feel free to add screen shots, but make sure that there is a text description of the steps to perform.
  
 -->
 
-## Minimal Path to Awesome
-
-<!-- 
-PRO TIP:
-
-For commands, use the `code syntax`
-
-For button labels, page names, dialog names, etc. as they appear on the screen, use **Bold**
-
-Don't use "click", use "select" or "use"
-
-As tempting as it may be, don't just use images to describe the steps. Let's be as inclusive as possible and think about accessibility.
-
--->
-
 * Clone this repository (or [download this solution as a .ZIP file](https://pnp.github.io/download-partial/?url=https://github.com/pnp/mgt-samples/tree/main/samples/YOUR-SOLUTION-NAME) then unzip it)
-* From your command line, change your current directory to the directory containing this sample (`YOUR-SOLUTION-NAME`, located under `samples`)
-* in the command line run:
-  * `npm install`
-  * `gulp serve`
 
->  This sample can also be opened with [VS Code Remote Development](https://code.visualstudio.com/docs/remote/remote-overview). Visit https://aka.ms/spfx-devcontainer for further instructions.
->  
 ## Features
 
-Description of the web part with possible additional details than in short summary. 
-This Web Part illustrates the following concepts on top of the SharePoint Framework:
+Description of the template with possible additional details than in short summary. 
+This template illustrates the following concepts on top of the Microsoft Graph Toolkit:
 
 * topic 1
 * topic 2
 * topic 3
+
+
+## Live Preview
+
+Experience a Live Preview of YOUR-SOLUTION-NAME in the Microsoft Graph Toolkit Playground
+
+[![Microsoft Graph Toolkit Playground](https://img.shields.io/badge/Microsoft_Graph_Toolkit-Playground-green.svg)](https://mgt.dev?path=/story/editor--editor&manifest=https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/YOUR-SOLUTION-NAME/assets/sample.json)
 
 <!--
 Note that better pictures and documentation will increase the sample usage and the value you are providing for others. Thanks for your submissions in advance! You rock ❤.
