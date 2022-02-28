@@ -40,8 +40,8 @@
       }
     ],
     "preview": {
-      "html": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/src/mgt-multiple-person-format.html",
-      "css": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/src/mgt-multiple-person-format.css"
+      "html": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/src/mgt-get-multiple-person-format.html",
+      "css": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/src/mgt-get-multiple-person-format.css"
     },
     "references": [
       {
