@@ -1,0 +1,54 @@
+[
+  {
+    "name": "pnp-mgt-samples-mgt-get-multiple-person",
+    "source": "pnp",
+    "title": "Multiple Person display in tooltip",
+    "shortDescription": "Multiple Person display in tooltip",
+    "url": "https://github.com/pnp/mgt-samples/tree/main/samples/mgt-get-multiple-person",
+    "longDescription": [
+      "This sample demonstrates the usage of the `mgt-get` component connected to the person data from Microsoft Graph. It also illustrates the use styles to format and display received data as tooltip."
+    ],
+    "creationDateTime": "2022-02-27",
+    "updateDateTime": "2022-02-27",
+    "products": [
+      "Microsoft Graph",
+      "Microsoft Graph Toolkit"
+    ],
+    "metadata": [
+      {
+        "key": "MGT-COMPONENT",
+        "value": "mgt-person"
+      },
+      {
+        "key": "MGT-COMPONENT",
+        "value": "mgt-get"
+      }
+    ],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/mgt-samples/raw/main/samples/mgt-get-multiple-person/assets/Mgt-multiple-Person-format.gif",
+        "alt": "Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "aaclage",
+        "pictureUrl": "https://github.com/aaclage.png",
+        "name": "André Lage"
+      }
+    ],
+    "preview": {
+      "html": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/src/mgt-get-multiple-person-format.html",
+      "css": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/src/mgt-get-multiple-person-format.css"
+    },
+    "references": [
+      {
+        "name": "Getting started with the Microsoft Graph Toolkit",
+        "description": "The Microsoft Graph Toolkit components can easily be added to your web application, SharePoint web part, or Microsoft Teams tabs. The components are based on web standards and can be used in both plain JavaScript projects or with popular web frameworks such as Reach, Angular, Vue.js, and more.",
+        "url": "https://docs.microsoft.com/graph/toolkit/get-started/overview"
+      }
+    ]
+  }
+]

@@ -1,0 +1,58 @@
+<mgt-get resource="/users?$select=displayName,mail&$filter=userType eq 'Member' && mail ne ''" >
+	<template>
+		<div class="usersFormat">
+			<div class="users" data-if="value.length >2">
+				<mgt-person person-query="{{value[0].mail}}" view="Image" person-card="hover">
+				</mgt-person>
+				<div class="userDisplayname">
+					{{value[0].displayName}}
+				</div>
+
+			</div>
+			<div class="users" data-if="value.length >2">
+				<mgt-person person-query="{{value[1].mail}}" view="Image" person-card="hover">
+				</mgt-person>
+				<div class="userDisplayname">
+					{{value[1].displayName}}
+				</div>
+
+			</div>
+			<div data-if="value.length <2">
+				<div class="users" data-for="user in value">
+					<div class="users" data-if="$index <2">
+						<mgt-person person-query="{{user.mail}}" view="Image" person-card="hover">
+						</mgt-person>
+						<div class="userDisplayname">
+							{{user.displayName}}
+						</div>
+
+					</div>
+				</div>
+			</div>
+			<div class="tooltip">
+				<div id="displayUsers" class="userTotal" data-if="value.length >2">
+					+ {{ value.length  }}
+				</div>
+				<span class="tooltiptext">
+                <div class="users" data-for="user in value">
+					<div class="users">
+						<mgt-person person-query="{{user.mail}}" view="Image" person-card="hover">
+						</mgt-person>
+						<div class="userDisplayname">
+							{{user.displayName}}
+						</div>
+
+					</div>
+				</div>
+            </span>
+			</div>
+
+		</div>
+	</template>
+	<template data-type="loading">
+		loading
+	</template>
+	<template data-type="error">
+		{{ this }}
+	</template>
+</mgt-get>
