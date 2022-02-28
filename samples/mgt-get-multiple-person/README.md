@@ -1,10 +1,10 @@
-# Using mgt-multiple-person format in a `mgt-get` template
+# Using mgt-get-multiple-person format in a `mgt-get` template
 
 ## Summary
 
 This sample demonstrates the usage of the `mgt-get` component connected to the person data from Microsoft Graph. It also illustrates the use styles to format and display received data as tooltip.
 
-![mgt-get-emails](assets/Mgt-multiple-Person-format.gif)
+![mgt-get-multiple-person](assets/Mgt-multiple-Person-format.gif)
 
 ## Compatibility
 
@@ -21,7 +21,7 @@ This sample demonstrates the usage of the `mgt-get` component connected to the p
 
 Solution|Author(s)
 --------|---------
-mgt-multiple-person | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage)), Datalynx AG
+mgt-get-multiple-person | [André Lage](https://github.com/aaclage) ([@aaclage](https://twitter.com/aaclage)), Datalynx AG
 
 ## Version history
 
@@ -65,5 +65,5 @@ Finally, if you have an idea for improvement, [make a suggestion](https://github
 **THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
 
-<img src="https://pnptelemetry.azurewebsites.net/mgt-samples/samples/mgt-multiple-person" />
+<img src="https://pnptelemetry.azurewebsites.net/mgt-samples/samples/mgt-get-multiple-person" />
 
