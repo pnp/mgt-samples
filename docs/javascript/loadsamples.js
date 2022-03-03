@@ -26,39 +26,34 @@ function loadSample(sample, filter) {
           thumbnail = sample.thumbnails[0].url;
         }
 
+        var components = [];
         var framework = "";
-        var SPFxVersion = "";
-        var outlookCompatible = false;
-        var teamsCompatible = false;
-        var pnpControls = "";
+        var html = sample.preview.html !== undefined;  
+        var css = sample.preview.css !== undefined;
+        var javascript = sample.preview.js !== undefined;
 
         var metadata = sample.metadata;
         metadata.forEach(meta => {
           switch (meta.key) {
+            case "MGT-COMPONENT":
+              components.push(meta.value);
+              break;
             case "CLIENT-SIDE-DEV":
               framework = meta.value;
-              break;
-            case "SPFX-VERSION":
-              SPFxVersion = meta.value;
-              break;
-            case "SPFX-OUTLOOKADDIN":
-              outlookCompatible = meta.value;
-              break;
-            case "SPFX-TEAMSPERSONALAPP":
-            case "SPFX-TEAMSTAB":
-              teamsCompatible = meta.value;
-              break;
-            case "PNPCONTROLS":
-              pnpControls = meta.value;
               break;
             default:
               break;
           }
         });
+
+              
+        // Filter our samples that don't match categories
+        if (filter !== "" && !components.includes(filter)) {
+          return null;
+        }
+
 const dtModified = new Date(sample.updateDateTime)
 
-        var compatible2019 = SPFxVersion == "1.4.1" || SPFxVersion.startsWith("1.3.") || SPFxVersion == "GA";
-        var compatible2016 = SPFxVersion == "GA";
         var modified = moment(dtModified).toISOString();
         var authors = sample.authors;
         var authorsList = "";
@@ -67,6 +62,7 @@ const dtModified = new Date(sample.updateDateTime)
         var authorsGitHub = "";
         var productTag = framework.toLowerCase();
         var productName = framework;
+        var componentsList = components.join(", ");
 
 
         // Build the authors array
@@ -105,13 +101,12 @@ const dtModified = new Date(sample.updateDateTime)
         });
 
         // Build a keyword tag for searching
-        var keywords = title + " " + escapedDescription + " " + authorsList + " " + authorsGitHub + " " + tags + " " + pnpControls;
+        var keywords = title + " " + escapedDescription + " " + authorsList + " " + authorsGitHub + " " + tags + " " + components.join(" ");
         keywords = keywords.toLowerCase();
 
         // Build the HTML to insert
         var $items = $(`
-<a class="sample-thumbnail" href="${sample.url}" data-modified="${modified}" data-title="${title}" data-keywords="${keywords}" data-tags="${tags}" data-framework="${framework}" data-spfx="${SPFxVersion}" data-outlook="${outlookCompatible}" data-teams="${teamsCompatible}" data-sp2016="${compatible2016}" data-sp2019="${compatible2019}" data-pnpcontrols="${pnpControls}"
->
+<a class="sample-thumbnail" href="${sample.url}" data-modified="${modified}" data-title="${title}" data-keywords="${keywords}" data-tags="${tags}" data-component="${componentsList}" data-framework="${framework}" data-hmtl="${html}" data-css="${css}" data-js="${javascript}">
   <div class="sample-inner">
     <div class="sample-preview">
       <img src="${thumbnail}" loading="lazy" alt="${title}">

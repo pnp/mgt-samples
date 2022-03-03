@@ -11,6 +11,14 @@
     background-image: url(../img/frameworks/javascript.svg);
 }
 
+.sampletype-item.html {
+    background-image: url(../img/frameworks/html.svg);
+}
+
+.sampletype-item.css {
+    background-image: url(../img/frameworks/css.svg);
+}
+
 .sampletype-item.knockout {
     background-image: url(../img/frameworks/knockout.svg);
 }

@@ -11,9 +11,20 @@ plugins:
             # 'samples/framework': 'https://pnp.github.io/mgt-samples/'
 nav:
   - Samples:
-    - By Framework: index.md
-    - By SPFx Version: samples/spfx.md
-    - By Compatibility: samples/compatibility.md
+    - All components: index.md
+    - Agenda: samples/mgt-agenda.md
+    - File: samples/mgt-file.md
+    - File list: samples/mgt-file-list.md
+    - Get: samples/mgt-get.md
+    - Login: samples/mgt-login.md
+    - People picker: samples/mgt-people-picker.md
+    - People: samples/mgt-people.md
+    - Person: samples/mgt-person.md
+    - Person card: samples/mgt-person-card.md
+    - Planner tasks: samples/mgt-tasks.md
+    - Teams channel picker: samples/mgt-teams-channel-picker.md
+    - To-do tasks: samples/mgt-todo.md
+
   - Getting Started:
     - Using the Samples: gettingstarted/index.md
     - Troubleshooting: gettingstarted/troubleshooting.md
