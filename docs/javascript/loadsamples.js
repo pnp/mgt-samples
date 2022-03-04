@@ -106,7 +106,7 @@ const dtModified = new Date(sample.updateDateTime)
 
         // Build the HTML to insert
         var $items = $(`
-<a class="sample-thumbnail" href="${sample.url}" data-modified="${modified}" data-title="${title}" data-keywords="${keywords}" data-tags="${tags}" data-component="${componentsList}" data-framework="${framework}" data-hmtl="${html}" data-css="${css}" data-js="${javascript}">
+<a class="sample-thumbnail" href="${sample.url}" data-modified="${modified}" data-title="${title}" data-keywords="${keywords}" data-tags="${tags}" data-component="${componentsList}" data-framework="${framework}" data-html="${html}" data-css="${css}" data-js="${javascript}">
   <div class="sample-inner">
     <div class="sample-preview">
       <img src="${thumbnail}" loading="lazy" alt="${title}">
