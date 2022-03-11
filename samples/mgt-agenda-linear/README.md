@@ -1,6 +1,4 @@
-# Title of the sample
-
-Linear events template using mgt-agenda
+# Linear events template using `mgt-agenda`
 
 ## Summary
 
