@@ -23,19 +23,11 @@
         }
     ],
     "thumbnails": [{
-            "type": "image",
-            "order": 100,
-            "url": "https://github.com/pnp/mgt-samples/raw/main/samples/mgt-agenda-linear/assets/mgt-agenda-linear.png",
-            "alt": "Preview"
-        }
-        /*,
-        {
-            "type": "video",
-            "order": 101,
-            "url": "https://www.youtube.com/embed/FS-_0KENJkI",
-            "alt": "Community demo of the component"
-        }*/
-    ],
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/mgt-samples/raw/main/samples/mgt-agenda-linear/assets/mgt-agenda-linear.png",
+        "alt": "Preview"
+    }],
     "preview": {
         "html": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-agenda-linear/src/mgt-agenda-linear.html",
         "js": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-agenda-linear/src/mgt-agenda-linear.js",
@@ -44,7 +36,7 @@
     "authors": [{
         "gitHubAccount": "sebastienlevert",
         "pictureUrl": "https://github.com/sebastienlevert.png",
-        "name": "YOUR-NAME"
+        "name": "Sébastien Levert"
     }],
     "references": [{
         "name": "Getting started with the Microsoft Graph Toolkit",
