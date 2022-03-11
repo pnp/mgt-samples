@@ -12,12 +12,12 @@
         }
     ],
     "[html]": {
-        "editor.tabSize": 4,
+        "editor.tabSize": 2,
     },
     "[javascript]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 2
     },
     "[css]": {
-        "editor.tabSize": 4
+        "editor.tabSize": 2
     }
 }

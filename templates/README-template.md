@@ -20,7 +20,8 @@ If possible, use a resolution of 1920x1080.
 
 You can add as many screen shots as you'd like to help users understand your sample without having to download it and install it.
 -->
-TODO: Create a good screen shot
+
+<!-- TODO: Create a good screen shot -->
 ![Example of a good preview](assets/goodpreview.png)
 
 ![Also a good preview](assets/alsogoodpreview.png)
@@ -30,7 +31,7 @@ TODO: Create a good screen shot
 ## Compatibility
 
 TODO: Complete this compatibility matrix
-![MGT 2.3.2](https://img.shields.io/badge/MGT-2.3.2-green.svg)
+![MGT 2.4.0](https://img.shields.io/badge/MGT-2.4.0-green.svg)
 
 <!--
 Don't worry if you're unsure about the compatibility matrix above. We'll verify it when we approve the PR. 
@@ -56,7 +57,7 @@ If you provide a link to your Twitter profile, we'll promote your contribution o
 
 Solution|Author(s)
 --------|---------
-folder name | [Author Name](LinkToYourGitHubProfile) ([@yourtwitterhandle](https://twitter.com/yourtwitterhandle)), Company
+folder name | [Author Name](https://github.com/YOURGITHUBUSERNAME) ([@yourtwitterhandle](https://twitter.com/yourtwitterhandle)), Company
 
 ## Version history
 
@@ -64,17 +65,6 @@ Version|Date|Comments
 -------|----|--------
 1.1|November 1, 2022|Update comment
 1.0|October 29, 2022|Initial release
-
-## Prerequisites
-
-<!--
-Any special pre-requisites? Include any lists, permissions, offerings to the demo gods, or whatever else needs to be done for this sample to work.
-
-Please describe the steps to configure the pre-requisites. Feel free to add screen shots, but make sure that there is a text description of the steps to perform.
- 
--->
-
-* Clone this repository (or [download this solution as a .ZIP file](https://pnp.github.io/download-partial/?url=https://github.com/pnp/mgt-samples/tree/main/samples/YOUR-SOLUTION-NAME) then unzip it)
 
 ## Features
 
@@ -129,8 +119,6 @@ Or:
 -->
 
 We do not support samples, but this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
-
-If you're having issues building the solution, please run [spfx doctor](https://pnp.github.io/cli-microsoft365/cmd/spfx/spfx-doctor/) from within the solution folder to diagnose incompatibility issues with your environment.
 
 You can try looking at [issues related to this sample](https://github.com/pnp/mgt-samples/issues?q=label%3A%22sample%3A%20YOUR-SOLUTION-NAME%22) to see if anybody else is having the same issues.
 

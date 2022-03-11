@@ -41,16 +41,6 @@ Experience a Live Preview of mgt-get-multiple-person in the Microsoft Graph Tool
 
 [![Microsoft Graph Toolkit Playground](https://img.shields.io/badge/Microsoft_Graph_Toolkit-Playground-green.svg)](https://mgt.dev?path=/story/editor--editor&manifest=https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/assets/sample.json)
 
-<!--
-RESERVED FOR REPO MAINTAINERS
-
-We'll add the video from the community call recording here
-
-## Video
-
-[![YouTube video title](./assets/video-thumbnail.jpg)](https://www.youtube.com/watch?v=XXXXX "YouTube video title")
--->
-
 ## Help
 
 We do not support samples, but this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.

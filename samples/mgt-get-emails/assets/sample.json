@@ -1,65 +1,57 @@
-[
-  {
+[{
     "name": "pnp-mgt-samples-mgt-get-emails",
     "source": "pnp",
     "title": "Emails template using mgt-get",
-    "shortDescription": "YOUR-SHORT-DESCRIPTION",
+    "shortDescription": "Custom emails template using the mgt-get component",
     "url": "https://github.com/pnp/mgt-samples/tree/main/samples/mgt-get-emails",
     "longDescription": [
-      "This sample demonstrates the usage of the mgt-get component connected to the email data from Microsoft Graph. It also illustrates the use of custom functions to format and act on the received data."
+        "This sample demonstrates the usage of the mgt-get component connected to the email data from Microsoft Graph. It also illustrates the use of custom functions to format and act on the received data."
     ],
     "creationDateTime": "2022-02-25",
     "updateDateTime": "2022-02-25",
     "products": [
-      "Microsoft Graph",
-      "Microsoft Graph Toolkit"
+        "Microsoft Graph",
+        "Microsoft Graph Toolkit"
     ],
-    "metadata": [
-      {
-        "key": "MGT-COMPONENT",
-        "value": "mgt-person"
-      },
-      {
-        "key": "MGT-COMPONENT",
-        "value": "mgt-get"
-      },
-      {
-        "key": "CLIENT-SIDE-DEV",
-        "value": "JavaScript"
-      }
+    "metadata": [{
+            "key": "MGT-COMPONENT",
+            "value": "mgt-person"
+        },
+        {
+            "key": "MGT-COMPONENT",
+            "value": "mgt-get"
+        },
+        {
+            "key": "CLIENT-SIDE-DEV",
+            "value": "JavaScript"
+        }
     ],
-    "thumbnails": [
-      {
-        "type": "image",
-        "order": 100,
-        "url": "https://github.com/pnp/mgt-samples/raw/main/samples/mgt-get-emails/assets//mgt-get-emails.png",
-        "alt": "Preview"
-      },
-      {
-        "type": "video",
-        "order": 101,
-        "url": "https://www.youtube.com/embed/FS-_0KENJkI",
-        "alt": "Community demo of the component"
-      }
+    "thumbnails": [{
+            "type": "image",
+            "order": 100,
+            "url": "https://github.com/pnp/mgt-samples/raw/main/samples/mgt-get-emails/assets//mgt-get-emails.png",
+            "alt": "Preview"
+        },
+        {
+            "type": "video",
+            "order": 101,
+            "url": "https://www.youtube.com/embed/FS-_0KENJkI",
+            "alt": "Community demo of the component"
+        }
     ],
-    "authors": [
-      {
+    "authors": [{
         "gitHubAccount": "sebastienlevert",
         "pictureUrl": "https://github.com/sebastienlevert.png",
         "name": "Sébastien Levert"
-      }
-    ],
+    }],
     "preview": {
-      "html": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-emails/src/mgt-get-emails.html",
-      "js": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-emails/src/mgt-get-emails.js",
-      "css": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-emails/src/mgt-get-emails.css"
+        "html": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-emails/src/mgt-get-emails.html",
+        "js": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-emails/src/mgt-get-emails.js",
+        "css": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-emails/src/mgt-get-emails.css"
     },
-    "references": [
-      {
+    "references": [{
         "name": "Getting started with the Microsoft Graph Toolkit",
         "description": "The Microsoft Graph Toolkit components can easily be added to your web application, SharePoint web part, or Microsoft Teams tabs. The components are based on web standards and can be used in both plain JavaScript projects or with popular web frameworks such as Reach, Angular, Vue.js, and more.",
         "url": "https://docs.microsoft.com/graph/toolkit/get-started/overview"
-      }
-    ]
-  }
-]
+    }]
+}]
