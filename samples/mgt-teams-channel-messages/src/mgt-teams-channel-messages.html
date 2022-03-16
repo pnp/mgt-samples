@@ -1,12 +1,12 @@
 <!-- Using Fluent UI Web Components components -->
 <script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
 
-<div class="mgt-dark">
+<div class="mgt-light">
   <!-- Graph Toolkit Channel Picker -->
   <mgt-teams-channel-picker></mgt-teams-channel-picker>
 
   <!-- Handle response from the Channel Picker -->
-  <mgt-get id="mgt-channel-messages" version="beta">
+  <mgt-get id="mgt-teams-channel-messages" version="beta">
     <template data-type="value">
       <div
         data-if="!deletedDateTime && messageType !== 'systemEventMessage'"

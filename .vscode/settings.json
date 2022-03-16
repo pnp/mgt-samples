@@ -26,7 +26,6 @@
   "prettier.trailingComma": "none",
   "prettier.tabWidth": 2,
   "prettier.useTabs": false,
-  "prettier.semi": false,
   "prettier.printWidth": 80,
   "prettier.bracketSpacing": true
 }
