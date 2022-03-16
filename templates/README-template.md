@@ -11,7 +11,7 @@ BAD 👎:
 
 ## Summary
 
-Short summary on functionality and used technologies.
+<!-- Short summary on functionality and used technologies. -->
 
 <!--
 Please provide a high-quality screenshot of your MGT rendered HTML below. It should be stored in a folder called `assets`. 

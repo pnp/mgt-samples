@@ -2,8 +2,6 @@
 
 ## Summary
 
-Short summary on functionality and used technologies.
-
 This sample demonstrates the usage of the `mgt-teams-channel-picker` component connected to a series of `mgt-get` components allowing retrieval of user messages within a specific Teams channel. All the data is coming from Microsoft Graph. It also illustrates the use of global functions to format time and advanced styling techniques to support both light and dark themes from the Microsoft Graph Toolkit.
 
 ![mgt-teams-channel-messages](assets/mgt-teams-channel-messages.gif)
