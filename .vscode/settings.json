@@ -1,23 +1,32 @@
 {
-    "json.schemas": [
-
-        {
-            "fileMatch": [
-                "**/samples.json",
-                "**/assets/sample.json",
-                "/templates/metadata-schema.json"
-            ],
-            "url": "./templates/metadata-schema.json"
-            //https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json
-        }
-    ],
-    "[html]": {
-        "editor.tabSize": 2,
-    },
-    "[javascript]": {
-        "editor.tabSize": 2
-    },
-    "[css]": {
-        "editor.tabSize": 2
+  "json.schemas": [
+    {
+      "fileMatch": [
+        "**/samples.json",
+        "**/assets/sample.json",
+        "/templates/metadata-schema.json"
+      ],
+      "url": "./templates/metadata-schema.json"
+      //https://developer.microsoft.com/en-us/json-schemas/pnp/samples/v1.0/metadata-schema.json
     }
+  ],
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "prettier.arrowParens": "avoid",
+  "prettier.trailingComma": "none",
+  "prettier.tabWidth": 2,
+  "prettier.useTabs": false,
+  "prettier.semi": false,
+  "prettier.printWidth": 80,
+  "prettier.bracketSpacing": true
 }

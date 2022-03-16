@@ -30,7 +30,7 @@ You can add as many screen shots as you'd like to help users understand your sam
 
 ## Compatibility
 
-TODO: Complete this compatibility matrix
+<!-- TODO: Complete this compatibility matrix -->
 ![MGT 2.4.0](https://img.shields.io/badge/MGT-2.4.0-green.svg)
 
 <!--
@@ -55,20 +55,21 @@ Provide a link to your GitHub profile to help others find more cool things you h
 If you provide a link to your Twitter profile, we'll promote your contribution on social media.
 -->
 
-Solution|Author(s)
---------|---------
-folder name | [Author Name](https://github.com/YOURGITHUBUSERNAME) ([@yourtwitterhandle](https://twitter.com/yourtwitterhandle)), Company
+| Solution    | Author(s)                                                                                                                   |
+| ----------- | --------------------------------------------------------------------------------------------------------------------------- |
+| folder name | [Author Name](https://github.com/YOURGITHUBUSERNAME) ([@yourtwitterhandle](https://twitter.com/yourtwitterhandle)), Company |
 
 ## Version history
 
-Version|Date|Comments
--------|----|--------
-1.1|November 1, 2022|Update comment
-1.0|October 29, 2022|Initial release
+| Version | Date             | Comments        |
+| ------- | ---------------- | --------------- |
+| 1.1     | November 1, 2022 | Update comment  |
+| 1.0     | October 29, 2022 | Initial release |
 
 ## Features
 
-Description of the template with possible additional details than in short summary. 
+<!-- Description of the template with possible additional details than in short summary. -->
+
 This template illustrates the following concepts on top of the Microsoft Graph Toolkit:
 
 * topic 1

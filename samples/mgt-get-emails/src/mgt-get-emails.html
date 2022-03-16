@@ -1,49 +1,91 @@
-<!-- External Scripts -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+<!-- Using Fluent UI Web Components components -->
+<script type="module" src="https://unpkg.com/@fluentui/web-components"></script>
 
-<!-- External Styles -->
-<link rel="stylesheet" href="https://static2.sharepointonline.com/files/fabric/office-ui-fabric-core/11.0.0/css/fabric.min.css" />
+<div class="mgt-light">
+  <!-- Graph Toolkit Channel Picker -->
+  <mgt-teams-channel-picker></mgt-teams-channel-picker>
 
-<!-- Template -->
-<div class="mgt-get-email">
-    <h1 class="mgt-get-email-title">My emails</h1>
-    <mgt-get id="mgt-email" resource="/me/mailFolders/Inbox/messages" scopes="Mail.Read, Mail.ReadWrite" max-pages="3">
-        <template>
-			<div class="email" data-for="email in value">
-				<div class="header">
-					<div>
-						<mgt-person person-query="{{email.sender.emailAddress.address}}" view="oneline"
-							person-card="hover" />
-					</div>
-					<span class="command-bar">
-						<div class="command-bar-action">
-							<a href="#" data-props="@click: deleteClick" onclick="return false;">
-								<span class="ms-Icon--Delete" aria-hidden="true"></span>
-							</a>
-						</div>
-					</span>
-				</div>
-				<div class="title">
-					<a href="{{ email.webLink }}" data-props="@click: emailClick" onclick="return false;">
-						<h3>{{ email.subject }}</h3>
-					</a>
-					<span class="date">
-						{{ getFormattedDate(email.receivedDateTime) }}
-					</span>
-				</div>
-				<div data-if="email.bodyPreview" class="preview" innerHtml>{{email.bodyPreview}}</div>
-				<div data-else class="preview empty-body">
-					...
-				</div>
-			</div>
-		</template>
+  <!-- Handle response from the Channel Picker -->
+  <mgt-get
+    date-if="{{ currentTeamId && currentChannelId }}"
+    id="mgt-teams-channel-messages"
+    version="beta"
+  >
+    <template data-type="value">
+      <div
+        data-if="!deletedDateTime && messageType !== 'systemEventMessage'"
+        class="teams-content"
+      >
+        <div class="teams-message-author-avatar">
+          <mgt-person
+            user-id="{{from.user.id}}"
+            avatar-size="large"
+            view="avatar"
+            person-card="hover"
+            show-presence="true"
+          >
+          </mgt-person>
+        </div>
+        <div class="teams-thread">
+          <div class="teams-message">
+            <mgt-person id="mgt-person-author" user-id="{{from.user.id}}">
+              <template type="default">
+                <span class="teams-message-author-title"
+                  >{{ person.displayName }}
+                </span>
+                <span class="teams-message-date"
+                  >{{ formatDate($parent.lastModifiedDateTime)}}</span
+                >
+              </template>
+            </mgt-person>
 
-        <template data-type="loading">
-			Loading...
-		</template>
+            <div data-props="innerHTML: body.content"></div>
+          </div>
 
-        <template data-type="error">
-			{{ this }}
-		</template>
-    </mgt-get>
+          <mgt-get
+            resource="/teams/{{ currentTeamId }}/channels/{{ currentChannelId }}/messages/{{ id }}/replies"
+            version="beta"
+          >
+            <template data-type="default">
+              <div data-if="{{ value.length > 0 }}" class="teams-replies"></div>
+            </template>
+            <template data-type="value">
+              <div
+                data-if="!deletedDateTime && messageType !== 'systemEventMessage'"
+                class="teams-content teams-reply"
+              >
+                <div class="teams-message-reply-author-avatar">
+                  <mgt-person
+                    user-id="{{from.user.id}}"
+                    avatar-size="large"
+                    view="avatar"
+                    person-card="hover"
+                    show-presence="true"
+                    class="mgt-person-medium"
+                  >
+                  </mgt-person>
+                </div>
+                <div class="teams-message-reply">
+                  <mgt-person id="mgt-person-author" user-id="{{from.user.id}}">
+                    <template type="default">
+                      <span class="teams-message-author-title"
+                        >{{ person.displayName }}
+                      </span>
+                      <span class="teams-message-date"
+                        >{{ formatDate($parent.lastModifiedDateTime)}}</span
+                      >
+                    </template>
+                  </mgt-person>
+                  <div data-props="innerHTML: body.content"></div>
+                </div>
+              </div>
+            </template>
+          </mgt-get>
+        </div>
+      </div>
+    </template>
+    <template data-type="loading">
+      <fluent-progress-ring></fluent-progress-ring>
+    </template>
+  </mgt-get>
 </div>

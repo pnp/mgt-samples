@@ -5,14 +5,10 @@
     "title": "YOUR-SAMPLE-TITLE",
     "shortDescription": "YOUR-SHORT-DESCRIPTION",
     "url": "https://github.com/pnp/mgt-samples/tree/main/samples/YOUR-SAMPLE-NAME",
-    "longDescription": [
-      "YOUR-SHORT-DESCRIPTION"
-    ],
+    "longDescription": ["YOUR-SHORT-DESCRIPTION"],
     "creationDateTime": "2022-12-25",
     "updateDateTime": "2022-12-31",
-    "products": [
-      "Microsoft Graph"
-    ],
+    "products": ["Microsoft Graph", "Microsoft Graph Toolkit"],
     "metadata": [
       {
         "key": "MGT-COMPONENT",

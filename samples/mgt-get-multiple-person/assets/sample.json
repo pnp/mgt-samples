@@ -10,10 +10,7 @@
     ],
     "creationDateTime": "2022-02-27",
     "updateDateTime": "2022-02-27",
-    "products": [
-      "Microsoft Graph",
-      "Microsoft Graph Toolkit"
-    ],
+    "products": ["Microsoft Graph", "Microsoft Graph Toolkit"],
     "metadata": [
       {
         "key": "MGT-COMPONENT",
@@ -22,6 +19,10 @@
       {
         "key": "MGT-COMPONENT",
         "value": "mgt-get"
+      },
+      {
+        "key": "CLIENT-SIDE-DEV",
+        "value": "JavaScript"
       }
     ],
     "thumbnails": [
