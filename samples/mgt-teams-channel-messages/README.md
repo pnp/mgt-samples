@@ -19,9 +19,9 @@ This sample demonstrates the usage of the `mgt-teams-channel-picker` component c
 
 ## Solution
 
-| Solution                   | Author(s)                                                                                                                  |
-| -------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| mgt-teams-channel-messages | [Sébastien Levert](https://github.com/sebastienlevert) ([@sebastienlevert](https://twitter.com/sebastienlevert)), Mirosoft |
+| Solution                   | Author(s)                                                                                                                   |
+| -------------------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| mgt-teams-channel-messages | [Sébastien Levert](https://github.com/sebastienlevert) ([@sebastienlevert](https://twitter.com/sebastienlevert)), Microsoft |
 
 ## Version history
 
