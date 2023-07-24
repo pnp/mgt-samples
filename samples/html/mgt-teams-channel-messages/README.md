@@ -12,8 +12,8 @@ This sample demonstrates the usage of the `mgt-teams-channel-picker` component c
 
 ## Applies to
 
-* [Microsoft Graph Toolkit](https://docs.microsoft.com/graph/toolkit/overview)
-* [Microsoft Graph](https://docs.microsoft.com/graph/)
+- [Microsoft Graph Toolkit](https://docs.microsoft.com/graph/toolkit/overview)
+- [Microsoft Graph](https://docs.microsoft.com/graph/)
 
 > Get your own free development tenant by subscribing to [Microsoft 365 developer program](http://aka.ms/o365devprogram)
 
@@ -33,19 +33,19 @@ This sample demonstrates the usage of the `mgt-teams-channel-picker` component c
 
 This sample illustrates the following concepts on top of the Microsoft Graph Toolkit:
 
-* Nesting multiple MGT controls (`mgt-person`, `mgt-get`)
-* Connecting different components together (`mgt-teams-channel-picker` and `mgt-get`)
-* Adding JavaScript function to the global template context
+- Nesting multiple MGT controls (`mgt-person`, `mgt-get`)
+- Connecting different components together (`mgt-teams-channel-picker` and `mgt-get`)
+- Adding JavaScript function to the global template context
 
 ## Live Preview
 
 Experience a Live Preview of mgt-teams-channel-messages in the Microsoft Graph Toolkit Playground
 
-[![Microsoft Graph Toolkit Playground](https://img.shields.io/badge/Microsoft_Graph_Toolkit-Playground-green.svg)](https://mgt.dev?path=/story/editor--editor&manifest=https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-teams-channel-messages/assets/sample.json)
+[![Microsoft Graph Toolkit Playground](https://img.shields.io/badge/Microsoft_Graph_Toolkit-Playground-green.svg)](https://mgt.dev?path=/story/editor--editor&manifest=https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/html/mgt-teams-channel-messages/assets/sample.json)
 
 ## Help
 
-We do not support samples, but this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for  community members to volunteer their time and help resolve issues.
+We do not support samples, but this community is always willing to help, and we want to improve these samples. We use GitHub to track issues, which makes it easy for community members to volunteer their time and help resolve issues.
 
 You can try looking at [issues related to this sample](https://github.com/pnp/mgt-samples/issues?q=label%3A%22sample%3A%20mgt-teams-channel-messages%22) to see if anybody else is having the same issues.
 
@@ -57,11 +57,8 @@ For questions regarding this sample, [create a new question](https://github.com/
 
 Finally, if you have an idea for improvement, [make a suggestion](https://github.com/pnp/mgt-samples/issues/new?assignees=&labels=Needs%3A+Triage+%3Amag%3A%2Ctype%3Aenhancement%2Csample%3A%20mgt-teams-channel-messages&template=suggestion.yml&sample=mgt-teams-channel-messages&authors=@sebastienlevert&title=mgt-teams-channel-messages%20-%20).
 
-
 ## Disclaimer
 
-**THIS CODE IS PROVIDED *AS IS* WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
+**THIS CODE IS PROVIDED _AS IS_ WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING ANY IMPLIED WARRANTIES OF FITNESS FOR A PARTICULAR PURPOSE, MERCHANTABILITY, OR NON-INFRINGEMENT.**
 
-
-<img src="https://pnptelemetry.azurewebsites.net/mgt-samples/samples/mgt-teams-channel-messages" />
-
+<img src="https://pnptelemetry.azurewebsites.net/mgt-samples/samples/html/mgt-teams-channel-messages" />
