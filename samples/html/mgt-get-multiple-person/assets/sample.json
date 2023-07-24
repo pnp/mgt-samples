@@ -4,7 +4,7 @@
     "source": "pnp",
     "title": "Multiple Person display in tooltip",
     "shortDescription": "Multiple Person display in tooltip",
-    "url": "https://github.com/pnp/mgt-samples/tree/main/samples/mgt-get-multiple-person",
+    "url": "https://github.com/pnp/mgt-samples/tree/main/samples/html/mgt-get-multiple-person",
     "longDescription": [
       "This sample demonstrates the usage of the `mgt-get` component connected to the person data from Microsoft Graph. It also illustrates the use styles to format and display received data as tooltip."
     ],
@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/mgt-samples/raw/main/samples/mgt-get-multiple-person/assets/Mgt-multiple-Person-format.gif",
+        "url": "https://github.com/pnp/mgt-samples/raw/main/samples/html/mgt-get-multiple-person/assets/Mgt-multiple-Person-format.gif",
         "alt": "Preview"
       }
     ],
@@ -41,8 +41,8 @@
       }
     ],
     "preview": {
-      "html": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/src/mgt-get-multiple-person-format.html",
-      "css": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/mgt-get-multiple-person/src/mgt-get-multiple-person-format.css"
+      "html": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/html/mgt-get-multiple-person/src/mgt-get-multiple-person-format.html",
+      "css": "https://raw.githubusercontent.com/pnp/mgt-samples/main/samples/html/mgt-get-multiple-person/src/mgt-get-multiple-person-format.css"
     },
     "references": [
       {
