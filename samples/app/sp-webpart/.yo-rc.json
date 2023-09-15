@@ -4,9 +4,9 @@
     "isCreatingSolution": true,
     "sdksVersions": {
       "@microsoft/microsoft-graph-client": "3.0.2",
-      "@microsoft/teams-js": "2.9.1"
+      "@microsoft/teams-js": "2.12.0"
     },
-    "version": "1.17.4",
+    "version": "1.18.0",
     "libraryName": "mgt-demo",
     "libraryId": "b0ed193e-b333-4796-b249-e34916ef7a85",
     "environment": "spo",
