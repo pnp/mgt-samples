@@ -67,6 +67,6 @@ REACT_APP_CLIENT_ID='<clientid>';
 ## Launch project <a id="launch"></a>
 
 ```sh
-> npm install --force
+> npm install
 > npm start
 ```
