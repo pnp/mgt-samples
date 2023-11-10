@@ -2,6 +2,10 @@
 
 This starter project is a simple React app that uses the [Microsoft Graph Toolkit](https://aka.ms/mgt) to sign in a user and display their profile picture and name. From this experience, you will be able to extend the app to use other components from the toolkit and access more data from Microsoft Graph.
 
+You can download this specific starter project by clicking on the "Download" button below.
+
+[![Download mgt-react-chat](https://img.shields.io/badge/Download-MGT%20React%20Starter-green.svg)](https://pnp.github.io/download-partial/?url=https://github.com/pnp/mgt-samples/tree/main/samples/starters/mgt-react-chat-starter)
+
 ## Table of Contents
 
 - [Pre-requisites](#prereqs)
@@ -11,18 +15,18 @@ This starter project is a simple React app that uses the [Microsoft Graph Toolki
   - [Manual](#manual)
 - [Launch Application](#launch)
 
-## <a id="prereqs">Pre-requisites</a>
+## Pre-requisites <a id="prereqs"></a>
 
 1. [Setup your Microsoft 365 tenant](https://learn.microsoft.com/graph/toolkit/get-started/overview#set-up-your-microsoft-365-tenant)
 1. [Set up your development environment](https://learn.microsoft.com/graph/toolkit/get-started/overview##set-up-your-development-environment)
 
-## <a id="appreg">Configure Entra App Registration</a>
+## Configure Entra App Registration <a id="appreg"></a>
 
 There are two ways which you can configure the App Registration required for the samples to work correctly, through automatation using either a `bash` or `PowerShell` script we provide for you in the `scripts` directory, or manually through Azure Portal.
 
 > Note that the script will create a file called `.env`, in the root of this directory. This file contains the client ID of the application registration that is created.
 
-### <a id="pwsh">PowerShell 7</a>
+### PowerShell 7 <a id="pwsh"></a>
 
 > The script uses CLI for Microsoft 365 to authenticate with and create the app registration in your tenant, therefore requires nodejs, v8 or greater to be installed
 
@@ -32,7 +36,7 @@ There are two ways which you can configure the App Registration required for the
 
 Follow the prompts in the terminal.
 
-### <a id="bash">bash</a>
+### bash <a id="bash"></a>
 
 > The script uses CLI for Microsoft 365 to authenticate with and create the app registration in your tenant, therefore requires nodejs, v8 or greater to be installed
 
@@ -43,7 +47,7 @@ Follow the prompts in the terminal.
 
 Follow the prompts in the terminal.
 
-### <a id="manual">Manual</a>
+### Manual <a id="manual"></a>
 
 The following table provides details of how to configure your app registration.
 
@@ -60,7 +64,7 @@ After creating the app registation, create a file called `.env` in the root of t
 REACT_APP_CLIENT_ID='<clientid>';
 ```
 
-## <a id="launch">Launch Sample</a>
+## Launch project <a id="launch"></a>
 
 ```sh
 > npm install
