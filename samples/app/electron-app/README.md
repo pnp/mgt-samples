@@ -15,7 +15,7 @@ npm install
 npm start
 ```
 
-See [provider usage documentation](https://learn.microsoft.com/graph/toolkit/providers) to learn about how to use the providers with the mgt components, to sign in/sign out, get access tokens, call Microsoft Graph, and more.
+See [provider usage documentation](https://learn.microsoft.com/en-us/graph/toolkit/providers/providers) to learn about how to use the providers with the mgt components, to sign in/sign out, get access tokens, call Microsoft Graph, and more.
 
 See [Electron provider documentation](https://learn.microsoft.com/graph/toolkit/providers/electron)
 
