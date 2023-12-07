@@ -21,7 +21,7 @@ import { ProfileComponent } from './pages/profile/profile.component';
   imports: [
     BrowserModule,
     MsalModule.forRoot(new PublicClientApplication(MsalConfig), MsalGuardConfig, MsalInterceptorConfig),
-    RouterModule.forRoot([], { relativeLinkResolution: 'legacy' }),
+    RouterModule.forRoot([], {}),
     AppRoutingModule
   ],
   schemas: [CUSTOM_ELEMENTS_SCHEMA],

@@ -32,6 +32,7 @@ export class AppComponent implements OnInit, OnDestroy {
         this.checkAndSetActiveAccount();
         this.configureMgt();
       });
+    TemplateHelper.setBindingSyntax('[[', ']]');
   }
 
   private checkAndSetActiveAccount() {
