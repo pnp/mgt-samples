@@ -1,4 +1,4 @@
-import { TemplateHelper } from "@microsoft/mgt";
+import { TemplateHelper } from "@microsoft/mgt-element";
 
 const channelPicker = document.querySelector("mgt-teams-channel-picker");
 const channelMessages = document.getElementById("mgt-teams-channel-messages");
@@ -61,9 +61,9 @@ TemplateHelper.globalContext.formatDate = date => {
 };
 
 channelPicker.addEventListener("selectionChanged", e => {
-  if (e.detail.length) {
-    let channelId = e.detail[0].channel.id;
-    let teamId = e.detail[0].team.id;
+  if (e.detail) {
+    let channelId = e.detail.channel.id;
+    let teamId = e.detail.team.id;
     TemplateHelper.globalContext.currentTeamId = teamId;
     TemplateHelper.globalContext.currentChannelId = channelId;
     channelMessages.resource = `teams/${teamId}/channels/${channelId}/messages/delta`;
