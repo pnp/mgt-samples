@@ -1,18 +1,21 @@
-import { BaseClientSideWebPart } from '@microsoft/sp-webpart-base';
+import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
 
+import { Providers, customElementHelper } from "@microsoft/mgt-element";
+import { SharePointProvider } from "@microsoft/mgt-sharepoint-provider";
 
-
-import { Providers } from '@microsoft/mgt-element';
-import { SharePointProvider } from '@microsoft/mgt-sharepoint-provider';
-import { customElementHelper } from '@microsoft/mgt-element/dist/es6/components/customElementHelper';
-
-export default class HelloWorldWebPart extends BaseClientSideWebPart<Record<string, unknown>> {
+export default class HelloWorldWebPart extends BaseClientSideWebPart<
+  Record<string, unknown>
+> {
   protected onInit(): Promise<void> {
-    customElementHelper.withDisambiguation('sp-mgt-no-framework-client-side-solution');
+    customElementHelper.withDisambiguation(
+      "sp-mgt-no-framework-client-side-solution"
+    );
     if (!Providers.globalProvider) {
       Providers.globalProvider = new SharePointProvider(this.context);
     }
-    return import( /* webpackChunkName: 'mgt-components' */'@microsoft/mgt-components').then(() => super.onInit());
+    return import(
+      /* webpackChunkName: 'mgt-components' */ "@microsoft/mgt-components"
+    ).then(() => super.onInit());
   }
 
   public render(): void {

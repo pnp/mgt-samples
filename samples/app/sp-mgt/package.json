@@ -15,24 +15,24 @@
     "@microsoft/mgt-element": "*",
     "@microsoft/mgt-components": "*",
     "@microsoft/mgt-sharepoint-provider": "*",
-    "@microsoft/sp-core-library": "1.18.0",
-    "@microsoft/sp-component-base": "1.18.0",
-    "@microsoft/sp-property-pane": "1.18.0",
-    "@microsoft/sp-webpart-base": "1.18.0",
-    "@microsoft/sp-lodash-subset": "1.18.0",
-    "@microsoft/sp-office-ui-fabric-core": "1.18.0"
+    "@microsoft/sp-core-library": "^1.18.0",
+    "@microsoft/sp-component-base": "^1.18.0",
+    "@microsoft/sp-property-pane": "^1.18.0",
+    "@microsoft/sp-webpart-base": "^1.18.0",
+    "@microsoft/sp-lodash-subset": "^1.18.0",
+    "@microsoft/sp-office-ui-fabric-core": "^1.18.0"
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.7": "0.1.0",
     "@rushstack/eslint-config": "2.5.1",
-    "@microsoft/eslint-plugin-spfx": "1.18.0",
-    "@microsoft/eslint-config-spfx": "1.18.0",
-    "@microsoft/sp-build-web": "1.18.0",
+    "@microsoft/eslint-plugin-spfx": "^1.18.0",
+    "@microsoft/eslint-config-spfx": "^1.18.0",
+    "@microsoft/sp-build-web": "^1.18.0",
     "@types/webpack-env": "~1.15.2",
     "ajv": "^6.12.5",
     "eslint": "8.7.0",
     "gulp": "4.0.2",
     "typescript": "4.7.4",
-    "@microsoft/sp-module-interfaces": "1.18.0"
+    "@microsoft/sp-module-interfaces": "^1.18.0"
   }
 }
