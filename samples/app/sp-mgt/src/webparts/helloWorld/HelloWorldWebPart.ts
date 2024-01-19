@@ -1,6 +1,7 @@
 import { BaseClientSideWebPart } from "@microsoft/sp-webpart-base";
 
 import { Providers, customElementHelper } from "@microsoft/mgt-element";
+import { registerMgtComponents } from "@microsoft/mgt-components";
 import { SharePointProvider } from "@microsoft/mgt-sharepoint-provider";
 
 export default class HelloWorldWebPart extends BaseClientSideWebPart<
@@ -10,12 +11,11 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<
     customElementHelper.withDisambiguation(
       "sp-mgt-no-framework-client-side-solution"
     );
+    registerMgtComponents();
     if (!Providers.globalProvider) {
       Providers.globalProvider = new SharePointProvider(this.context);
     }
-    return import(
-      /* webpackChunkName: 'mgt-components' */ "@microsoft/mgt-components"
-    ).then(() => super.onInit());
+    return super.onInit();
   }
 
   public render(): void {
@@ -28,6 +28,7 @@ export default class HelloWorldWebPart extends BaseClientSideWebPart<
   private _renderMgtComponents(): string {
     return `
       <div class="">
+        <h2>MGT Components</h2>
         <mgt-sp-mgt-no-framework-client-side-solution-person
           show-presence
           person-query="me"
