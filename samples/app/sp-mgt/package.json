@@ -12,9 +12,9 @@
   },
   "dependencies": {
     "tslib": "2.3.1",
-    "@microsoft/mgt-element": "3.1.3-preview.ec25e57",
-    "@microsoft/mgt-components": "3.1.3-preview.ec25e57",
-    "@microsoft/mgt-sharepoint-provider": "3.1.3-preview.ec25e57",
+    "@microsoft/mgt-element": "*",
+    "@microsoft/mgt-components": "*",
+    "@microsoft/mgt-sharepoint-provider": "*",
     "@microsoft/sp-core-library": "^1.18.0",
     "@microsoft/sp-component-base": "^1.18.0",
     "@microsoft/sp-property-pane": "^1.18.0",
