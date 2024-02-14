@@ -7,9 +7,7 @@ import {
   Agenda,
   TeamsChannelPicker,
   Planner,
-  PeoplePicker,
-  ViewType,
-  PersonCardInteraction
+  PeoplePicker
 } from "@microsoft/mgt-react";
 
 export default class MgtDemo extends React.Component<
@@ -30,8 +28,8 @@ export default class MgtDemo extends React.Component<
       >
         <Person
           personQuery="me"
-          view={ViewType.twolines}
-          personCardInteraction={PersonCardInteraction.hover}
+          view="twolines"
+          personCardInteraction="hover"
           showPresence={true}
         />
 
