@@ -2,13 +2,13 @@
   "name": "electron-app-mgt",
   "version": "1.0.0",
   "description": "A sample Electron application that uses Microsoft Graph Toolkit to authenticate and call Microsoft Graph",
-  "main": "app.ts",
-  "private": true,
+  "main": ".webpack/main",
   "scripts": {
-    "build": "tsc",
-    "webpack": "webpack",
-    "start": "npm run webpack && electron dist/app.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make",
+    "publish": "electron-forge publish",
+    "lint": "eslint --ext .ts,.tsx ."
   },
   "keywords": [
     "msal-node",
@@ -18,23 +18,32 @@
   "author": "",
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "^7.12.7",
-    "@babel/preset-env": "^7.12.7",
-    "babel": "^6.23.0",
-    "electron": "^11.0.2",
-    "electron-rebuild": "^2.3.4",
-    "es-dev-server": "^1.57.8",
-    "es-module-lexer": "^0.3.26",
-    "es-module-shims": "^0.7.1",
-    "node-loader": "^1.0.2",
-    "ts-loader": "^8.0.11",
-    "webpack": "^5.6.0",
-    "webpack-cli": "^4.2.0"
+    "@electron-forge/cli": "^7.2.0",
+    "@electron-forge/maker-deb": "^7.2.0",
+    "@electron-forge/maker-rpm": "^7.2.0",
+    "@electron-forge/maker-squirrel": "^7.2.0",
+    "@electron-forge/maker-zip": "^7.2.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.2.0",
+    "@electron-forge/plugin-webpack": "^7.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.62.0",
+    "@typescript-eslint/parser": "^5.62.0",
+    "@vercel/webpack-asset-relocator-loader": "^1.7.3",
+    "css-loader": "^6.9.1",
+    "electron": "11.0.2",
+    "eslint": "^8.56.0",
+    "eslint-plugin-import": "^2.29.1",
+    "fork-ts-checker-webpack-plugin": "^7.3.0",
+    "node-loader": "^2.0.0",
+    "style-loader": "^3.3.4",
+    "ts-loader": "^9.5.1",
+    "ts-node": "^10.9.2",
+    "typescript": "~4.5.4"
   },
   "dependencies": {
-    "@microsoft/mgt-components": "*",
-    "@microsoft/mgt-electron-provider": "*",
-    "@microsoft/mgt-element": "*",
-    "axios": "^0.21.0"
+    "@microsoft/mgt-components": "4.0.1-next.electron-provider.95c51f5",
+    "@microsoft/mgt-electron-provider": "4.0.1-next.electron-provider.95c51f5",
+    "@microsoft/mgt-element": "4.0.1-next.electron-provider.95c51f5",
+    "electron-squirrel-startup": "^1.0.0",
+    "path-browserify": "^1.0.1"
   }
 }

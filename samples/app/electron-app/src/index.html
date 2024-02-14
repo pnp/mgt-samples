@@ -2,17 +2,19 @@
 <html>
   <head>
     <meta charset="UTF-8" />
-    <title>Sample Electron-MGT App</title>
+    <title>Hello World!</title>
+
   </head>
   <body>
+    <h1>💖 Hello World! 🦒</h1>
+    <p>Welcome to your MGT Electron application.</p>
     <mgt-login></mgt-login>
     <mgt-person person-query="me" view="twoLines" person-card="hover" show-presence></mgt-person>
     <mgt-people-picker></mgt-people-picker>
     <mgt-teams-channel-picker></mgt-teams-channel-picker>
-    <mgt-tasks data-source="todo"></mgt-tasks>
+    <mgt-planner></mgt-planner>
     <mgt-agenda group-by-day></mgt-agenda>
     <mgt-people show-presence></mgt-people>
     <mgt-todo></mgt-todo>
-    <script type="module" src="./dist/renderer.js"></script>
   </body>
 </html>
