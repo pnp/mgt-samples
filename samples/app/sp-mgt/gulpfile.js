@@ -1,6 +1,7 @@
 "use strict";
 
 const build = require("@microsoft/sp-build-web");
+const path = require("path");
 
 build.addSuppression(
   `Warning - [sass] The local CSS class 'ms-Grid' is not camelCase and will not be type-safe.`
@@ -17,9 +18,9 @@ build.rig.getTasks = function () {
 
 // add babel-loader and some transforms to handle es2021 language features which are unsupported in webpack 4 by default
 const litFolders = [
-  "node_modules/lit/",
-  "node_modules/@lit/",
-  "node_modules/lit-html/"
+  `node_modules${path.sep}lit${path.sep}`,
+  `node_modules${path.sep}@lit${path.sep}`,
+  `node_modules${path.sep}lit-html${path.sep}`
 ];
 build.configureWebpack.mergeConfig({
   additionalConfiguration: generatedConfiguration => {
