@@ -1,33 +1,35 @@
-import * as React from 'react';
-import { IMgtDemoProps } from './IMgtDemoProps';
+import * as React from "react";
+import { IMgtDemoProps } from "./IMgtDemoProps";
 
 import {
   Person,
   People,
   Agenda,
   TeamsChannelPicker,
-  Tasks,
-  PeoplePicker,
-  PersonViewType,
-  PersonCardInteraction
-} from '@microsoft/mgt-react';
+  Planner,
+  PeoplePicker
+} from "@microsoft/mgt-react";
 
-export default class MgtDemo extends React.Component<IMgtDemoProps, Record<string, unknown>> {
+export default class MgtDemo extends React.Component<
+  IMgtDemoProps,
+  Record<string, unknown>
+> {
   public render(): React.ReactElement<IMgtDemoProps> {
     return (
       <div
         style={{
-          maxWidth: '700px',
-          margin: '0px auto',
-          color: 'black',
-          padding: '15px',
-          boxShadow: '0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1)'
+          maxWidth: "700px",
+          margin: "0px auto",
+          color: "black",
+          padding: "15px",
+          boxShadow:
+            "0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 25px 50px 0 rgba(0, 0, 0, 0.1)"
         }}
       >
         <Person
           personQuery="me"
-          view={PersonViewType.twolines}
-          personCardInteraction={PersonCardInteraction.hover}
+          view="twolines"
+          personCardInteraction="hover"
           showPresence={true}
         />
 
@@ -39,7 +41,7 @@ export default class MgtDemo extends React.Component<IMgtDemoProps, Record<strin
 
         <TeamsChannelPicker />
 
-        <Tasks />
+        <Planner />
       </div>
     );
   }
