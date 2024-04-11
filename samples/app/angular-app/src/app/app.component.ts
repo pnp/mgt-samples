@@ -1,7 +1,7 @@
 import { Component, OnInit, ChangeDetectorRef, OnDestroy } from '@angular/core';
 import { MsalBroadcastService, MsalGuardAuthRequest, MsalService } from '@azure/msal-angular';
 import { InteractionStatus, PublicClientApplication } from '@azure/msal-browser';
-import { Msal2Provider, Providers, ProviderState, TemplateHelper } from '@microsoft/mgt';
+import { Msal2Provider, Providers, ProviderState, registerMgtAgendaComponent, registerMgtLoginComponent, TemplateHelper } from '@microsoft/mgt';
 import { filter, takeUntil } from 'rxjs/operators';
 import { Subject } from 'rxjs';
 import { MsalGuardConfig, MsalConfig } from '../environments/environment.msal';
@@ -51,7 +51,8 @@ export class AppComponent implements OnInit, OnDestroy {
     });
 
     Providers.globalProvider.onStateChanged(() => this.onProviderStateChanged());
-
+    registerMgtAgendaComponent();
+    registerMgtLoginComponent();
     TemplateHelper.setBindingSyntax('[[', ']]');
   }
 
