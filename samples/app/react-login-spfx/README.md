@@ -12,7 +12,7 @@ This sample illustrates how to use the `Login` component from the Microsoft Grap
 
 ## Contributors
 
-[Guido Zambarda](https://github.com/guidozam)
+Guido Zambarda ([@iamguidozam](https://x.com/iamguidozam)), PiaSys.com
 
 ## Version history
 
@@ -47,3 +47,5 @@ This sample illustrates the following concepts on top of the SharePoint Framewor
 - [Use Microsoft Graph in your solution](https://docs.microsoft.com/en-us/sharepoint/dev/spfx/web-parts/get-started/using-microsoft-graph-apis)
 - [Microsoft Graph Toolkit with React](https://learn.microsoft.com/en-us/graph/toolkit/get-started/mgt-react)
 - [Microsoft 365 Patterns and Practices](https://aka.ms/m365pnp) - Guidance, tooling, samples and open-source controls for your Microsoft 365 development
+
+<img src="https://pnptelemetry.azurewebsites.net/mgt-samples/samples/app/react-login-spfx" />
