@@ -4,7 +4,7 @@
 
 This sample illustrates how to use the `Login` component from the Microsoft Graph Toolkit React package in a SharePoint Framework web part.
 
-![mgt-login-spfx](./assets/mgt-login-spfx.gif)
+![mgt-login-spfx](./assets/react-login-spfx.gif)
 
 ## Used SharePoint Framework Version
 

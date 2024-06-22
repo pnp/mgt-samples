@@ -1,10 +1,10 @@
 [
   {
-    "name": "pnp-mgt-samples-mgt-login-spfx",
+    "name": "pnp-mgt-samples-react-login-spfx",
     "source": "pnp",
     "title": "Using login control in SPFx with React",
     "shortDescription": "Using the mgt-login component in a SharePoint Framework web part with React",
-    "url": "https://github.com/pnp/mgt-samples/tree/main/samples/app/mgt-login-spfx",
+    "url": "https://github.com/pnp/mgt-samples/tree/main/samples/app/react-login-spfx",
     "longDescription": [
       "This sample demonstrates how to use the Microsoft Graph Toolkit login component in a SharePoint Framework web part with React."
     ],
@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/mgt-samples/tree/main/samples/app/mgt-login-spfx/assets/mgt-login-spfx.png",
+        "url": "https://github.com/pnp/mgt-samples/tree/main/samples/app/react-login-spfx/assets/react-login-spfx.png",
         "alt": "Preview"
       }
     ],
