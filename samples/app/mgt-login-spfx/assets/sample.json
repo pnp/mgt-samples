@@ -1,0 +1,51 @@
+[
+  {
+    "name": "pnp-mgt-samples-mgt-login-spfx",
+    "source": "pnp",
+    "title": "Using login control in SPFx with React",
+    "shortDescription": "Using the mgt-login component in a SharePoint Framework web part with React",
+    "url": "https://github.com/pnp/mgt-samples/tree/main/samples/app/mgt-login-spfx",
+    "longDescription": [
+      "This sample demonstrates how to use the Microsoft Graph Toolkit login component in a SharePoint Framework web part with React."
+    ],
+    "creationDateTime": "2024-06-22",
+    "updateDateTime": "2024-06-22",
+    "products": ["Microsoft Graph", "Microsoft Graph Toolkit"],
+    "metadata": [
+			{
+				"key": "MGT-COMPONENT",
+				"value": "mgt-login"
+			},
+			{
+				"key": "SPFX-VERSION",
+				"value": "1.18.2"
+			},
+			{
+				"key": "CLIENT-SIDE-DEV",
+				"value": "React"
+			}
+		],
+    "thumbnails": [
+      {
+        "type": "image",
+        "order": 100,
+        "url": "https://github.com/pnp/mgt-samples/tree/main/samples/app/mgt-login-spfx/assets/mgt-login-spfx.png",
+        "alt": "Preview"
+      }
+    ],
+    "authors": [
+      {
+        "gitHubAccount": "guidozam",
+        "pictureUrl": "https://github.com/guidozam.png",
+        "name": "Guido Zambarda"
+      }
+    ],
+    "references": [
+      {
+        "name": "Getting started with the Microsoft Graph Toolkit in React",
+        "description": "The Microsoft Graph Toolkit components can easily be added to your web application, SharePoint web part, or Microsoft Teams tabs.",
+        "url": "https://learn.microsoft.com/en-us/graph/toolkit/get-started/mgt-react"
+      }
+    ]
+  }
+]
