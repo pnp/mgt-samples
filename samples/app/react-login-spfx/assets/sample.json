@@ -29,7 +29,7 @@
       {
         "type": "image",
         "order": 100,
-        "url": "https://github.com/pnp/mgt-samples/tree/main/samples/app/react-login-spfx/assets/react-login-spfx.png",
+        "url": "https://github.com/pnp/mgt-samples/blob/main/samples/app/react-login-spfx/assets/react-login-spfx.gif",
         "alt": "Preview"
       }
     ],
