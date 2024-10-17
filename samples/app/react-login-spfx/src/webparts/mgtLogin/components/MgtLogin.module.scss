@@ -1,0 +1,51 @@
+@import '~@fluentui/react/dist/sass/References.scss';
+
+.mgtLogin {
+  overflow: hidden;
+  padding: 1em;
+  color: "[theme:bodyText, default: #323130]";
+  color: var(--bodyText);
+  &.teams {
+    font-family: $ms-font-family-fallbacks;
+  }
+}
+
+.welcome {
+  text-align: center;
+}
+
+// This style if for the section title and displays a text and a line after it
+.sectionTitle {
+  width:100%;
+  text-align:left;
+  border-bottom: 1px solid #383838;
+  line-height:0.1em;
+  margin:10px 0 20px;
+}
+
+.sectionTitle span {
+  background:#fff;
+  padding:0 10px;
+}
+
+.userFlyout {
+  margin-top: -40px;
+}
+
+.userPicture {
+  width: 72px;
+  border-radius: 50%;
+}
+
+.customFlyoutCommands {
+  text-align: center;
+}
+
+.personBlockImage {
+  float:inline-start;
+}
+
+.personBlockDetails {
+  float:inline-end;
+  margin-left: 10px;
+}

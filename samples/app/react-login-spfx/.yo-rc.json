@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.17.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "mgt-login-spfx",
+    "libraryId": "86763da1-f3b1-4297-85d7-610e358316b4",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "mgt-login-spfx",
+    "solutionShortDescription": "mgt-login-spfx description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
